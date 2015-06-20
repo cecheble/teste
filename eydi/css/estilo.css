@@ -1,0 +1,69 @@
+.trans {
+   animation: fadein 2s;
+   -moz-animation: fadein 2s; /* Firefox */
+   -webkit-animation: fadein 2s; /* Safari and Chrome */
+   -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+   from {
+       opacity:0;
+   }
+   to {
+       opacity:1;
+   }
+}
+@-moz-keyframes fadein { /* Firefox */
+   from {
+       opacity:0;
+   }
+   to {
+       opacity:1;
+   }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+   from {
+       opacity:0;
+   }
+   to {
+       opacity:1;
+   }
+}
+@-o-keyframes fadein { /* Opera */
+   from {
+       opacity:0;
+   }
+   to {
+       opacity: 1;
+   }
+}
+
+
+
+@charset "utf-8";
+/* CSS Document */
+
+.eydibanner 
+{
+	background-color:rgba(184, 187, 193, 1);
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -1px 1px rgba(0, 0, 0, 0.6), 0 0 5px rgba(0, 0, 0, 0.6);
+	border-top: 0px solid rgba(53, 105, 30, 1);
+	border-bottom: 0px solid rgba(53, 105, 30, 1);
+		}
+
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(184, 187, 193, 1);
+  
+  #form ul li {
+	margin:20px 0;
+	list-style:none;
+	position:relative;
+	clear:both;
+}
